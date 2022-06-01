@@ -1,0 +1,49 @@
+body{
+    background-attachment: fixed;
+    background-color: grey
+}
+
+#title, .subtitle, .post_title {
+    color:black
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: arial;
+}
+
+.subtitle{
+    background-color: blue; 
+    padding: 10px;
+    margin: 10px;
+}
+
+.post {
+    background: blue 
+    padding-box 10px;
+    margin: 10px;
+}
+p{ margin: 5px 0;
+    padding: 10px;
+    border: 1px solid black;
+
+    margin: 10px;
+    text-indent: 2ch;
+  }
+  
+  p.pilcrow {
+     text-indent: 0;
+     display: inline;
+  }
+  p.pilcrow + p.pilcrow::before {
+    content: " ¶ ";
+  }
+  header {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  .photo{
+      size: 10px;
+      size-adjust: 5px;
+  }
