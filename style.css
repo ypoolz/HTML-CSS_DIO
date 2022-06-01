@@ -1,5 +1,5 @@
 body{
-    background:url("https://github.com/ypoolz/Projects/blob/main/wallpapersite.png?raw=true");
+    background:url();
     background-color: grey;
     max-width: 900px;
     margin: auto;
@@ -46,6 +46,7 @@ body{
     
 }
 .post_image{
+    margin-top: 5px;
     margin-left:10px ;
     border: 2px solid black;
     border-radius: 50%;
@@ -53,19 +54,22 @@ body{
 }
 .list_content{
     list-style-type:none;
-    color: #ab010a;
+    color:black;
+    list-style-type: disc;
+    color:#ab010a;
+    
 }
 .list_content li a {
-    color: #ab010a;
+    color: black;
    text-decoration: none;
-}
-.post_link {
-    list-style-image: url();
 }
 .pic{
     margin-top: 2%;
     width: 30%;
     border-radius: 10px;
     border: 2px solid black;
+}
+.contact {
+    font-size: large;
 }
 
