@@ -3,6 +3,7 @@ body{
     background-color: grey;
     max-width: 900px;
     margin: auto;
+    background-image: url(https://github.com/ypoolz/Projects/blob/main/wallpapersite.png?raw=true);
 }
 
 #title, .post_title {
